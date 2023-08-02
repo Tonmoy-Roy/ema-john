@@ -1,10 +1,12 @@
 .product {
     width: 315px;
-    height: 515px;
+    height: 530px;
     border: 1px solid #95A0A7;
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
+    margin-top:20vh;
+    margin-bottom: -100px;
 }
 
 .product img {
@@ -19,8 +21,22 @@
     height: 48px;
     flex-shrink: 0;
     background-color: #FFE0B3;
+    bottom: 0;
 }
 
 .name {
-    font-size: medium;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.032px;
+    margin-bottom: 20px;
+    font-size: larger;
+    /* border: 1px solid salmon; */
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: greenyellow;
 }
