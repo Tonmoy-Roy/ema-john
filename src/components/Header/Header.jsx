@@ -5,8 +5,8 @@ import logo from '../../../images/Logo.svg'
 const Header = () => {
     return (
         <nav className='header'>
-            <img src={logo} alt="" />
-            <div>
+            <img src={logo} alt="" className='logo'/>
+            <div className='order'>
                 <a href="/order">Order </a>
                 <a href="/order-review">Review </a>
                 <a href="/inventory">Inventory    </a>

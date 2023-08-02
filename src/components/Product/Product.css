@@ -3,10 +3,11 @@
     height: 530px;
     border: 1px solid #95A0A7;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 30px;
     overflow: hidden;
-    margin-top:20vh;
+    margin-top: 20vh;
     margin-bottom: -100px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
 }
 
 .product img {

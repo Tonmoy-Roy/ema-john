@@ -8,12 +8,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
-nav.header a{
-    color:white;
+
+nav.header a {
+    color: white;
     text-decoration: none;
     margin-left: 30px;
 }
-nav.header a:hover{
-    color:orange;
+
+nav.header a:hover {
+    color: orange;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.order {
+    margin-right: 100px;
+    font-size: 20px;
 }
