@@ -1,0 +1,18 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+body {
+    color: black;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}

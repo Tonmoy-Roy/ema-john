@@ -1,15 +1,12 @@
 .header {
     height: 80px;
     background-color: #1C2B35;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    min-width: 1480px;
-    border-radius: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
     align-items: center;
 }
 nav.header a{
