@@ -4,6 +4,7 @@ import React from 'react';
 
 import './Shop.css'
 import Product from '../Product/Product';
+import Cart from '../Cart/Cart';
 
 
 const Shop = () => {
@@ -33,12 +34,7 @@ const Shop = () => {
                         }
                     </div>
                     <div className="cart-container">
-                        <h2>Order Summary</h2>
-                        <p>Selected Items : {cart.length}</p>
-                        <p>Total Price: ${}</p>
-                        <p>Total Shipping Charge: ${}</p>
-                        <p>Tax: ${}</p>
-                        <h2>Grand Total: ${}</h2>
+                        <Cart cart={cart}></Cart>
                     </div>
                 </div>
             </div>
