@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import {addToDb} from '../../../utilities/fakedb';
 
 import './Shop.css'
 import Product from '../Product/Product';
@@ -18,6 +19,7 @@ const Shop = () => {
     const handleAddToCart = (product) => {
         const newCart=[...cart,product];
         setCart(newCart);
+        addToDb(product.id);
     }
     return (
         <div className="mt-10">
